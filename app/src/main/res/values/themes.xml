@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TurboCalc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary color of the app -->
+        <item name="colorPrimary">@color/buttonSpecial</item>
+        <item name="colorPrimaryVariant">@color/textPrimary</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <item name="colorSecondary">@color/textPrimary</item>
+        <item name="colorOnSecondary">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:colorAccent">@color/buttonSpecial</item>
+        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
+        <!-- Disable window action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+</resources>

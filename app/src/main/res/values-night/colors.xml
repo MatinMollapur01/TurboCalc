@@ -1,0 +1,6 @@
+<resources>
+    <color name="background">#000000</color> <!-- Dark theme background color -->
+    <color name="textPrimary">#FFFFFF</color> <!-- Dark theme text color -->
+    <color name="textSecondary">#BDBDBD</color>
+    <color name="buttonSpecial">#FF9800</color> <!-- Special button color -->
+</resources>

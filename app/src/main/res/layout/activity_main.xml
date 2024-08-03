@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            tools:ignore="MissingConstraints">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:navigationIcon="@drawable/ic_menu" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="none"
+            android:textSize="48sp"
+            android:gravity="end"
+            android:focusable="false"
+            android:background="@android:color/transparent"
+            android:textColor="@color/textPrimary"
+            android:importantForAccessibility="yes"
+            android:hint="@string/edit_text_desc"
+            android:autofillHints="none"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="end"
+            android:textColor="@color/textSecondary"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@id/editText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:columnCount="4"
+            android:useDefaultMargins="true"
+            android:layout_margin="16dp"
+            app:layout_constraintTop_toBottomOf="@id/resultTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- Row 1 -->
+            <Button android:text="@string/button_ac" android:onClick="onClearClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_divide" android:onClick="onOperatorClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_multiply" android:onClick="onOperatorClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_percent" android:onClick="onOperatorClick" style="@style/CalcButton"/>
+
+            <!-- Row 2 -->
+            <Button android:text="@string/button_7" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_8" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_9" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_subtract" android:onClick="onOperatorClick" style="@style/CalcButton"/>
+
+            <!-- Row 3 -->
+            <Button android:text="@string/button_4" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_5" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_6" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_add" android:onClick="onOperatorClick" style="@style/CalcButton"/>
+
+            <!-- Row 4 -->
+            <Button android:text="@string/button_1" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_2" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_3" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_equal" android:onClick="onEqualClick" style="@style/CalcButtonSpecial"/>
+
+            <!-- Row 5 -->
+            <Button android:text="@string/button_0" android:layout_columnSpan="2" android:onClick="onNumberClick" style="@style/CalcButton"/>
+            <Button android:text="@string/button_dot" android:onClick="onNumberClick" style="@style/CalcButton"/>
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

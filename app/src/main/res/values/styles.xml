@@ -1,0 +1,15 @@
+<resources>
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="CalcButtonSpecial" parent="CalcButton">
+        <item name="android:backgroundTint">@color/buttonSpecial</item>
+    </style>
+</resources>
