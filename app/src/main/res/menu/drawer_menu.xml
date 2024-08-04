@@ -7,4 +7,8 @@
         android:id="@+id/nav_length_conversions"
         android:icon="@drawable/ic_length_conversion"
         android:title="@string/length_conversions" />
+    <item
+        android:id="@+id/nav_weight_conversions"
+        android:icon="@drawable/ic_weight_conversion"
+        android:title="@string/weight_conversions" />
 </menu>

@@ -26,6 +26,8 @@
     <string name="length_conversions">Length Conversions</string>
     <string name="enter_value">Enter value</string>
     <string name="convert">Convert</string>
+    <string name="weight_conversions">Weight Conversions</string>
+    <string name="error_message">Please enter a valid number</string>
     <string-array name="theme_options">
         <item>Light Mode</item>
         <item>Dark Mode</item>
@@ -39,5 +41,12 @@
         <item>Yard</item>
         <item>Foot</item>
         <item>Inch</item>
+    </string-array>
+    <string-array name="weight_units">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+        <item>Ounce</item>
     </string-array>
 </resources>
