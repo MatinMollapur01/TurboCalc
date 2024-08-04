@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.GravityCompat;
@@ -72,6 +71,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId()) {
             case R.id.nav_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
+                break;
+            case R.id.nav_length_conversions:
+                startActivity(new Intent(this, LengthConversionActivity.class));
                 break;
         }
 

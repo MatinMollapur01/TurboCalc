@@ -3,4 +3,8 @@
         android:id="@+id/nav_settings"
         android:icon="@drawable/ic_settings"
         android:title="@string/settings" />
+    <item
+        android:id="@+id/nav_length_conversions"
+        android:icon="@drawable/ic_length_conversion"
+        android:title="@string/length_conversions" />
 </menu>

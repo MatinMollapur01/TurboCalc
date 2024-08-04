@@ -23,6 +23,7 @@
         </activity>
 
         <activity android:name=".SettingsActivity" android:exported="true" />
+        <activity android:name=".LengthConversionActivity" android:exported="true" />
 
     </application>
 
