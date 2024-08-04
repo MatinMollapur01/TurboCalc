@@ -28,6 +28,7 @@
     <string name="convert">Convert</string>
     <string name="weight_conversions">Weight Conversions</string>
     <string name="error_message">Please enter a valid number</string>
+    <string name="nav_temperature_conversions">Temperature Conversions</string>
     <string-array name="theme_options">
         <item>Light Mode</item>
         <item>Dark Mode</item>
@@ -48,5 +49,10 @@
         <item>Milligram</item>
         <item>Pound</item>
         <item>Ounce</item>
+    </string-array>
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
     </string-array>
 </resources>

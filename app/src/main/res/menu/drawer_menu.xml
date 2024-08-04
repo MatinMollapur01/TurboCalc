@@ -11,4 +11,8 @@
         android:id="@+id/nav_weight_conversions"
         android:icon="@drawable/ic_weight_conversion"
         android:title="@string/weight_conversions" />
+    <item
+        android:id="@+id/nav_temperature_conversions"
+        android:icon="@drawable/ic_temperature"
+        android:title="@string/nav_temperature_conversions" />
 </menu>

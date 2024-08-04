@@ -78,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_weight_conversions:
                 startActivity(new Intent(this, WeightConversionActivity.class));
                 break;
+            case R.id.nav_temperature_conversions:
+                startActivity(new Intent(this, TemperatureConversionActivity.class));
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);
