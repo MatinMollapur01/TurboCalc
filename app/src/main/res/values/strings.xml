@@ -35,6 +35,7 @@
     <string name="time_conversions">Time Conversions</string>
     <string name="energy_conversions">Energy Conversions</string>
     <string name="pressure_conversions">Pressure Conversions</string>
+    <string name="data_conversions">Data Conversions</string>
     <string-array name="volume_units">
         <item>Liter</item>
         <item>Milliliter</item>

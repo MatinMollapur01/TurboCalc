@@ -39,4 +39,8 @@
         android:id="@+id/nav_pressure_conversions"
         android:icon="@drawable/ic_pressure_conversion"
         android:title="@string/pressure_conversions" />
+    <item
+        android:id="@+id/nav_data_conversions"
+        android:icon="@drawable/ic_data_conversion"
+        android:title="@string/data_conversions" />
 </menu>

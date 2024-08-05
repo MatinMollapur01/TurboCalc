@@ -99,6 +99,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_pressure_conversions:
                 startActivity(new Intent(this, PressureConversionActivity.class));
                 break;
+            case R.id.nav_data_conversions:
+                startActivity(new Intent(this, DataConversionActivity.class));
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);

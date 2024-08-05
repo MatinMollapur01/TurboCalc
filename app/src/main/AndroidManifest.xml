@@ -32,6 +32,7 @@
         <activity android:name=".TimeConversionActivity" android:exported="true" />
         <activity android:name=".EnergyConversionActivity" android:exported="true" />
         <activity android:name=".PressureConversionActivity" android:exported="true" />
+        <activity android:name=".DataConversionActivity" android:exported="true" />
 
     </application>
 
