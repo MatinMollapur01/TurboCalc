@@ -23,6 +23,11 @@
         android:id="@+id/nav_area_conversions"
         android:icon="@drawable/ic_area_conversion"
         android:title="@string/area_conversions" />
+    <item
+        android:id="@+id/nav_speed_conversions"
+        android:icon="@drawable/ic_speed_conversion"
+        android:title="@string/speed_conversions" />
+
 
 
 </menu>

@@ -84,8 +84,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_volume_conversions:
                 startActivity(new Intent(this, VolumeConversionActivity.class));
                 break;
-            case R.id.nav_area_conversions:  // New case for Area Conversions
+            case R.id.nav_area_conversions:
                 startActivity(new Intent(this, AreaConversionActivity.class));
+                break;
+            case R.id.nav_speed_conversions:
+                startActivity(new Intent(this, SpeedConversionActivity.class));
                 break;
         }
 

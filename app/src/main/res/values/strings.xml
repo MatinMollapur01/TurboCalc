@@ -31,6 +31,7 @@
     <string name="nav_temperature_conversions">Temperature Conversions</string>
     <string name="nav_volume_conversions">Volume Conversions</string>
     <string name="area_conversions">Area Conversions</string>
+    <string name="speed_conversions">Speed Conversions</string>
     <string-array name="volume_units">
         <item>Liter</item>
         <item>Milliliter</item>
