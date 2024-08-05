@@ -15,4 +15,9 @@
         android:id="@+id/nav_temperature_conversions"
         android:icon="@drawable/ic_temperature"
         android:title="@string/nav_temperature_conversions" />
+    <item
+        android:id="@+id/nav_volume_conversions"
+        android:icon="@drawable/ic_menu_volume"
+        android:title="@string/nav_volume_conversions" />
+
 </menu>

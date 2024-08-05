@@ -29,6 +29,13 @@
     <string name="weight_conversions">Weight Conversions</string>
     <string name="error_message">Please enter a valid number</string>
     <string name="nav_temperature_conversions">Temperature Conversions</string>
+    <string name="nav_volume_conversions">Volume Conversions</string>
+    <string-array name="volume_units">
+        <item>Liter</item>
+        <item>Milliliter</item>
+        <item>Gallon</item>
+        <item>Cup</item>
+    </string-array>
     <string-array name="theme_options">
         <item>Light Mode</item>
         <item>Dark Mode</item>
