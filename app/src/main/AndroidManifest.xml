@@ -27,6 +27,7 @@
         <activity android:name=".WeightConversionActivity" android:exported="true" />
         <activity android:name=".TemperatureConversionActivity" android:exported="true" />
         <activity android:name=".VolumeConversionActivity" android:exported="true" />
+        <activity android:name=".AreaConversionActivity" android:exported="true" />
 
     </application>
 
