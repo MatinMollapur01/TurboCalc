@@ -93,6 +93,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_time_conversions:
                 startActivity(new Intent(this, TimeConversionActivity.class));
                 break;
+            case R.id.nav_energy_conversions:
+                startActivity(new Intent(this, EnergyConversionActivity.class));
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);

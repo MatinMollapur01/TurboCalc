@@ -31,5 +31,8 @@
         android:id="@+id/nav_time_conversions"
         android:icon="@drawable/ic_time_conversion"
         android:title="@string/time_conversions" />
-
+    <item
+        android:id="@+id/nav_energy_conversions"
+        android:icon="@drawable/ic_energy_conversion"
+        android:title="@string/energy_conversions" />
 </menu>

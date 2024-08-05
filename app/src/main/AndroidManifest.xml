@@ -30,6 +30,7 @@
         <activity android:name=".AreaConversionActivity" android:exported="true" />
         <activity android:name=".SpeedConversionActivity" android:exported="true" />
         <activity android:name=".TimeConversionActivity" android:exported="true" />
+        <activity android:name=".EnergyConversionActivity" android:exported="true" />
 
     </application>
 
